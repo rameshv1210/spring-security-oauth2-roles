@@ -24,8 +24,8 @@ public class OAuth2WebSecurityConfig extends WebSecurityConfigurerAdapter {
         String password = "pass";
         String user = "user";
         auth.inMemoryAuthentication()
-            .withUser(user).password(password).roles("ROLE_USER")
-            .and().withUser("admin").password("admin").roles("ROLE_ADMIN");
+            .withUser(user).password(password).roles("USER")
+            .and().withUser("admin").password("admin").roles("ADMIN");
         
     }
 	
