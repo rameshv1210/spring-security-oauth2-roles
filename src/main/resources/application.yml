@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: vanilla
+management:
+  context_path: /admin
+logging:
+  level:
+    org.springframework.security: DEBUG
